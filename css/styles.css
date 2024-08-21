@@ -7,6 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+  gap: 8px;
 }
 
 .logo {
@@ -37,11 +39,171 @@
   padding: 16px 20px;
 }
 
-.circle {
-  width: 100px;
-  height: 100px;
+.banner {
+  height: 450px;
+  background-image: url("../img/mainbanner.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 12px;
+}
+
+.banner h1,
+.banner strong {
+  color: #fff;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 54px;
+}
+
+.banner strong {
+  font-size: 20px;
+}
+
+.specialties-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 48px 20px;
+}
+
+.specialties-container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  gap: 20px;
+}
+
+.specialties-container ul li {
+  text-align: center;
+}
+
+.fas {
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.fa-shield-alt {
+  color: #2cc76a;
+}
+
+.fa-rocket {
+  color: #ef3f29;
+}
+
+.fa-comments {
+  color: #ef8f29;
+}
+
+.specialties-container ul li p {
+  max-width: 300px;
+  line-height: 24px;
+  color: #70747a;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+
+  gap: 48px;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 20px;
+}
+
+.cards-title-description {
+  text-align: center;
+}
+
+.cards-title-description h3 {
+  font-size: 36px;
+  margin-bottom: 4px;
+}
+
+.cards-title-description p {
+  font-size: 20px;
+}
+
+.cards ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  list-style: none;
+
+  gap: 32px;
+}
+
+.card {
+  height: 250px;
+  width: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background: #eee;
+}
+
+.card header {
+  padding: 8px 16px;
+  background-color: #2cc76a;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.price {
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #232a31;
+
+  margin-top: -40px;
 
   border-radius: 50%;
+}
+
+.price strong {
+  color: #fff;
+}
+
+.card footer {
+  width: 100%;
+}
+.card footer button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 8px 16px;
 
   background-color: #2cc76a;
+  color: #fff;
+
+  text-transform: uppercase;
+  font-weight: bold;
+
+  width: 100%;
 }

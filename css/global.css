@@ -3,6 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  list-style: none;
 }
 
 h1,
@@ -28,4 +29,9 @@ textarea,
 a {
   border: 0;
   outline: none;
+}
+
+button,
+a {
+  cursor: pointer;
 }
